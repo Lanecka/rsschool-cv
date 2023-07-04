@@ -1,1 +1,1 @@
-https://lanecka.github.io/rsschool-cv/git 
+https://lanecka.github.io/rsschool-cv/
