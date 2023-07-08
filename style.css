@@ -208,10 +208,11 @@ pre {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-start; 
+  justify-content: space-between;
 }
 
 .projects li {
+  width: 30%;
   list-style-type: none;
 }
 
@@ -375,6 +376,7 @@ pre {
     visibility: visible;
     left: 0;
   }
+
   /*end-burger*/
 
   .content {
@@ -408,7 +410,7 @@ pre {
     display: none;
   }
 
-  .right{
+  .right {
     margin-top: 0;
     padding-top: 20px;
   }
@@ -489,7 +491,7 @@ pre {
 }
 
 @media (max-width: 450px) {
-  .section { 
+  .section {
     padding: 40px 20px;
   }
 
@@ -520,7 +522,7 @@ pre {
     top: 80px;
   }
 
-  pre{
+  pre {
     font-size: 8px;
   }
 
