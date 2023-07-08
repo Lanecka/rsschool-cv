@@ -240,18 +240,18 @@ pre {
   margin-left: 10px;
 }
 
-footer {
+.footer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1120px;
   width: auto;
   padding: 20px 40px;
   background-color: #000000;
   color: white;
 }
 
-footer a {
+.footer a {
   text-decoration: none;
   color: white;
 }
@@ -455,7 +455,7 @@ footer a {
     padding: 10px 20px 0;
   }
 
-  footer {
+  .footer-container {
     flex-direction: column;
   }
 
