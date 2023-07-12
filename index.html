@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irina Veselova</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <nav class="navigation">
+        <ul>
+          <li class="navigation__item">
+            <a href="#about">About me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#code">Code</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#courses">Courses</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="menu">
+        <input id="menu-toggle" type="checkbox">
+        <label class="menu__btn" for="menu-toggle">
+          <span></span>
+        </label>
+        <nav class="navigation">
+          <ul>
+            <li class="navigation__item">
+              <a href="#about">About me</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#code">Code</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#courses">Courses</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div><!--end Burger-->
+  </header>
+  <main>
+    <div class="container">
+      <div class="content">
+        <div class="left">
+          <div class="left__info">
+            <img class="left__photo" src="./img/224f39ba-33a4-4ce7-b09b-bc8e26de4cad.jpg" alt="photo of the developer">
+            <section class="section section--contact" id="contact">
+              <h2 class="section__title">Contact</h2>
+              <ul class="section__list">
+                <li>
+                  <a href="https://github.com/Lanecka" target="_blank" class="contact">
+                    <img class="section__img" src="./img/icons/github.svg" alt="github icons">
+                    <span>github.com/Lanecka</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/murreyalaym" target="_blank" class="contact">
+                    <img class="section__img" src="./img/icons/telegram.svg" alt="telegram icons">
+                    <span>@murreyalaym</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:ladelaym@gmail.com" target="_blank" class="contact">
+                    <img class="section__img" src="./img/icons/email.svg" alt="email icons">
+                    <span>ladelaym@gmail.com</span>
+                  </a>
+                </li>
+                <li class="contact">
+                  <img class="section__img" src="./img/icons/map.svg" alt="map icons">
+                  <span>Russia, Moscow</span>
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="yellow" id="skills">
+            <section class="section">
+              <h2 class="section__title section__title--yellow">Skills</h2>
+              <ul class="section__list">
+                <li>
+                  <img class="section__icon" src="./img/icons/skill.png" alt="icon">
+                  <span>HTML5, CSS(Bootstrap, SASS/SCSS, LESS)</span>
+                </li>
+                <li>
+                  <img class="section__icon" src="./img/icons/skill.png" alt="icon">
+                  <span>JavaScript Basics</span>
+                </li>
+                <li>
+                  <img class="section__icon" src="./img/icons/skill.png" alt="icon">
+                  <span>GitHub, GitLab</span>
+                </li>
+                <li>
+                  <img class="section__icon" src="./img/icons/skill.png" alt="icon">
+                  <span>React, Redux toolkit</span>
+                </li>
+                <li>
+                  <img class="section__icon" src="./img/icons/skill.png" alt="icon">
+                  <span>Figma, Adobe Photoshop</span>
+                </li>
+              </ul>
+              <div class="line"></div>
+            </section>
+            <section class="section">
+              <h2 class="section__title section__title--yellow">LANGUAGES</h2>
+              <ul class="section__list">
+                <li>
+                  <img class="section__icon" src="./img/icons/check.png" alt="icon">
+                  <span>Russian - native</span>
+                </li>
+                <li>
+                  <img class="section__icon" src="./img/icons/check.png" alt="icon">
+                  <span>English - elementary</span>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="right">
+          <div class="dev">
+            <h1 class="dev__title">Irina Veselova</h1>
+            <p class="dev__subtitle">Front-End developer</p>
+            <img class="dev__img" src="./img/main.png" alt="developer's photo">
+          </div>
+          <section class="section" id="about">
+            <h2 class="section__title">About me</h2>
+            <div class="section__description">
+              I'm an enthusiastic, responsible and hard working IT person.
+              I am able to work well both in a team environment as well as using own initiative.
+              I am able to work well under pressure and adhere to strict deadlines.
+              Proficient in HTML, CSS, JavaScript, and React. Seeking to join a dynamic team where I can utilize my
+              skills to help drive the success of the organization.
+            </div>
+          </section>
+          <section class="section" id="code">
+            <h2 class="section__title section__title--yellow">Code example</h2>
+            <div>
+              <h3>CODEWARS: Return Negative.</h3>
+              <p>In this simple assignment you are given a number and have to make it negative. But maybe the number is
+                already negative?
+              </p>
+            </div>
+            <pre>
+            <code>
+const array = [1, -5, 0, 0.12]
+function makeNegative() {
+  for (let i = 0; i &lt; array.length; i++) {
+    if (array[i] != 0 &amp;&amp; array[i] &gt; 0) {
+      array[i] = array[i] * -1;
+    }
+  }
+  return array;
+}
+makeNegative()
+            </code>
+          </pre>
+          </section>
+          <section class="section" id="courses">
+            <h2 class="section__title">courses</h2>
+            <ul>
+              <li>Basics of the Figma on Netology;</li>
+              <li>Basics of HTML on Netology;</li>
+              <li>Web-design on Netology;</li>
+              <li>Basic of front-end developer on university Innopolis</li>
+            </ul>
+          </section>
+          <section class="section" id="projects">
+            <h2 class="section__title section__title--yellow">Projects</h2>
+            <ul class="projects">
+              <li>
+                <a class="projects__item" href="https://lanecka.github.io/rsschool-cv/cv" target="_blank">
+                  <img class="projects__img" src="./img/projects/screen1.png" alt="my cv page">
+
+                  <div class="projects__description">
+                    <h3>my cv-markdown</h3>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="projects__item" href="https://lanecka.github.io/rsschool-cv/" target="_blank">
+                  <img class="projects__img" src="./img/projects/screen3.png" alt="my cv page">
+                  <div class="projects__description">
+                    <h3>my cv-page</h3>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="projects__item" href="https://alestemple.vercel.app/" target="_blank">
+                  <img class="projects__img" src="./img/projects/alestemple.png" alt="alestemple">
+                  <div class="projects__description">
+                    <h3>alestemple</h3>
+                    <img src="./img/icons/React-icon.svg.png" alt="react icon">
+                    <img src="./img/icons/sass.svg" alt="scss icon">
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <a class="footer__github footer__item" href="https://github.com/Lanecka" target="_blank">
+        <img src="./img/icons/githubWhite.png" alt="icon of github">
+        <h3>my GitHub</h3>
+      </a>
+      <div class="footer__year footer__item">@2023</div>
+      <a class="footer__school footer__item" href="https://rs.school/js/" target="_blank">
+        <img src="./img/icons/rsschool.png" alt="logo rsschool">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
